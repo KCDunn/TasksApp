@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: lightblue;
+}
+
+.taskList{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px dotted grey;
+    margin: 5px;
+}

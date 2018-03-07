@@ -1,0 +1,15 @@
+<h3>Task List Component</h3>
+<!-- <app-task-details>loading...</app-task-details> -->
+
+<div class="taskList" *ngFor="let task of tasks">
+    <!-- <app-task-details *ngFor="let task of tasks">loading...</app-task-details> -->
+
+    <h4>Task Title: {{ task.title }}</h4>
+    <app-task-details [task]="task"></app-task-details>
+    <!-- <div class="listItem">
+        <button (click)="onSomveEvent()">Click Me</button>
+        <p>Complete/Incomplete</p>
+    </div> -->
+  
+
+</div>

@@ -1,0 +1,31 @@
+div{
+    border: 2px solid red;
+    margin: 8px;
+    padding: 5px;
+}
+.on{
+    display: none;
+}
+.b{
+    display: none;
+}
+
+
+.completed p.on{
+    display: block;
+}
+.completed p.off{
+    display: none;
+}
+.completed button.b{
+    display: block;
+}
+.completed button.a{
+    display: none;
+}
+.completed p.what{
+    color: grey;
+}
+.completed {
+    border: 2px solid green;
+  }
